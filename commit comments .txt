@@ -1,0 +1,9 @@
+Implement basic structure and authentication flow up to step 8
+
+- Create base Vue components for Home, CreatePost, PostDetail, and Login views.
+- Set up Vue Router with routes for home, post details, and post creation.
+- Add placeholder Vuex state for posts and user authentication.
+- Implement dummy login and logout functionality.
+- Insert placeholder styles for CreatePost and Login components.
+
+Next steps include form validation, API integration, and UI enhancements.
