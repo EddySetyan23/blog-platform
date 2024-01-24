@@ -1,10 +1,9 @@
 <template>
-    <div>
-      <BlogPost :post="post" />
-      <!-- You can add more post details or functionalities here, like editing or deleting a post -->
-    </div>
-  </template>
-  
+  <form @submit.prevent="submitComment">
+    <textarea v-model="newComment.content" placeholder="Write a comment..." required></textarea>
+    <button type="submit">Post Comment</button>
+  </form>
+</template>
   <script>
   import { computed } from 'vue';
   import { useRoute } from 'vue-router';
